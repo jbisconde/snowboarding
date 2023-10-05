@@ -234,7 +234,7 @@ button {
 
 button:focus {
   outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 5px auto;
 }
 
 input,
@@ -1707,21 +1707,21 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #fcd3c8;
+  background-color: #4da3ff;
 }
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #f9ad99;
+  border-color: #007bff;
 }
 
 .table-hover .table-primary:hover {
-  background-color: #fbc0b0;
+  background-color: #4da3ff;
 }
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: #fbc0b0;
+  background-color: #4da3ff;
 }
 
 .table-secondary,
@@ -4831,15 +4831,15 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-primary {
-  color: #7f331e;
+  color: #0056b3;
   background-color: #fde0d8;
-  border-color: #fcd3c8;
+  border-color: #4da3ff;
 }
 .alert-primary hr {
-  border-top-color: #fbc0b0;
+  border-top-color: #4da3ff;
 }
 .alert-primary .alert-link {
-  color: #562214;
+  color: #0056b3;
 }
 
 .alert-secondary {
@@ -5183,17 +5183,17 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .list-group-item-primary {
-  color: #7f331e;
-  background-color: #fcd3c8;
+  color: #0056b3;
+  background-color: #4da3ff;
 }
 .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
-  color: #7f331e;
-  background-color: #fbc0b0;
+  color: #0056b3;
+  background-color: #4da3ff;
 }
 .list-group-item-primary.list-group-item-action.active {
   color: #fff;
-  background-color: #7f331e;
-  border-color: #7f331e;
+  background-color: #0056b3;
+  border-color: #0056b3;
 }
 
 .list-group-item-secondary {
